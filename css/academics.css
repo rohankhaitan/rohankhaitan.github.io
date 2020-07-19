@@ -1,0 +1,88 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+
+.main {
+  text-align:center;
+  padding: 16px;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-family: Petrona;
+  letter-spacing:1.5px;
+  height: 400px; /* Used in this example to enable scrolling */
+}
+
+
+.item_description {
+  width:100%;
+  margin-top: 40px;
+  
+}
+.image {
+  padding-top:8%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  position:relative;
+  width:25%;
+  float:right;
+  display:block;
+
+}
+
+.desc {
+  width:75%;
+  text-align:justify;
+  padding:20px;
+  float:left;
+  display:block;
+  letter-spacing:1.5px;
+  font-size: 1vw;
+  line-height: 1.75; 
+
+}
+
+
+
+@media (max-width:600px) {
+  .desc {
+    float:none;
+    width:100%;
+    font-size: 1.6vw;
+    letter-spacing: 0.15vw;
+    margin-bottom:20vw;
+    
+    
+  }
+  .image {
+    float:none;
+    width:100%;
+    max-height: 25vw;
+    display:none;
+    }
+  full {
+  
+   width:100%
+   }
+  
+  
+@media (max-width:600px) {
+  button {
+    font-size: 1.5vw;
+    
+  }
+  .main {
+    font-size: 2vw;
+    letter-spacing: 0.11vw;
+    
+  }
+}
+
+@media (max-width:600px) {
+  #cw1, #cw2, #cw3, #cw4  {
+    font-size: 2vw;
+  }
+}
+
