@@ -313,4 +313,10 @@ hr.rounded {
     transition: all 0.5s;
     
 }
+  .main {
+    font-size: 2vw;
+    width:100%;
+    letter-spacing: 0.11vw;
+    
+  }
 }
