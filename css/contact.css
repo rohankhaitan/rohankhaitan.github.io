@@ -1,11 +1,5 @@
-.item_description {
-  width:100%;
-}
-
-
-
 .desc1 {
-  width:40%;
+  width:50%;
   text-align:justify;
   float:left;
   display:block;
@@ -29,7 +23,7 @@
 }
 
 .rest {
-  width:80%;
+  width:100%;
   text-align:justify;
   padding:20px;
   padding-left:20%;
@@ -42,7 +36,7 @@
 }
 
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
   .desc1, .desc2 {
     font-size: 1.8vw;
     letter-spacing: 0.11vw;
@@ -50,4 +44,9 @@
     padding-bottom:60px;
     
   }
+  
+  .desc1, .rest {
+   padding-left:10%
+   }
 
+}

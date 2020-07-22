@@ -1,22 +1,4 @@
-* {
-  margin:0;
-  padding:0;
-  box-sizing:border-box
-}
 
-.main {
-  text-align:center;
-  width:90%;
-  margin: 0 auto;
-  padding: 16px;
-  margin-top: 80px;
-  font-family: Petrona;
-}
-
-
-.item_description {
-  width:100%;
-}
 .image {
   height:auto;
   padding-top:2%;
@@ -48,14 +30,14 @@
 
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
   .desc {
     float:none;
     width:100%;
     font-size: 1.8vw;
     letter-spacing: 0.11vw;
     padding-top:0px;
-    padding-bottom:60px;
+    padding-bottom:40px;
     
   }
   .image {

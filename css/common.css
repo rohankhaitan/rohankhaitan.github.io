@@ -1,15 +1,26 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+.item_description {
+  width:100%;
+}
 
 body {
-   width: 80%;
+   width: 100%;
    margin: 0 auto !important;
    float: none !important;
-   border-left: 1px solid #F5F5F5;
-   border-right: 1px solid #F5F5F5;
+   
+   border-left: 0px solid #F5F5F5;
+   border-right: 0px solid #F5F5F5;
 
    }
 .bg_color {
-   background:	#FFFAF0;
+   background:	#FFFFFF;
    min-height:100%;
+   width: 90%;
+   margin: 0 auto !important;
    }
 
 
@@ -20,7 +31,11 @@ body {
   margin: 0 auto;
   padding-top: 80px;
   font-family: Petrona;
+  letter-spacing: 1.3px;
+  line-height: 1.4;
 }
+
+
 
 .mobileShow { display: none; }
 
@@ -29,22 +44,28 @@ body {
   background-color: #2B0404;
   position: fixed;
   top: 0;
-  width: 79.9%;
+  width: 100%;
   font-family: Petrona;
   z-index:1;
+  padding-left: 10vw;
+  
 }
 
 .navbar .content {
   display: block;
   padding: 14px 16px;
-  text-align:center;
+  text-align:left;
   font-size: 17px;
   color: white;
   float: right;
+  border:none;
+
   }
 
-
-
+.navbar ul {
+  display: inline-block;
+  list-style-type: none;
+  }
 
 .navbar a {
   float: left;
@@ -52,14 +73,16 @@ body {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  margin-right:1px;
   text-decoration: none;
   font-size: 17px;
+  font-weight:bold;
+  letter-spacing: 1.3px;
+  background:transparent;
 }
+
 
 .navbar a.active {
   background-color: #F5F5F5;
-  border-color:black;
   color: black;
 }
 
@@ -194,16 +217,22 @@ hr.rounded {
 
       }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1000px) {
   body {
    width: 100%;
    margin: 0 auto !important;
    float: none !important;
-   background:#FFFFE0;
    border:none;
    }
+   .bg_color {
+   background:	#FFFFFF;
+   min-height:100%;
+   width:100%;
+   }
+
   .navbar {
     width:100%;
+    padding-left: 0%;
     }
 
 }
@@ -223,6 +252,7 @@ hr.rounded {
   .navbar a.icon {
     float: right;
     display: block;
+    background:transparent;
   }
   .navbar .content {
     display: none;
@@ -239,7 +269,7 @@ hr.rounded {
     background: #3333FF;
   }
   .navbar.responsive a {
-    background:#330066;
+    background:#000033;
     float: none;
     display: block;
     text-align: left;
@@ -262,7 +292,7 @@ hr.rounded {
   }
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
   .footer, .hr {
     float:none;
     position:fixed;
