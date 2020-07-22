@@ -20,13 +20,6 @@
    }
 
 @media (max-width:800px) {
-  .main {
-    font-size: 2vw;
-    width:100%;
-    letter-spacing: 0.11vw;
-    
-  }
-  
   .contents {
     font-size: 2vw;
     letter-spacing: 0.11vw;
